@@ -1,0 +1,18 @@
+# Site settings
+title: Karthika Muthuramu
+header-img: img/versailles_trees.jpg
+email: karthika.mmuu@gmail.com
+description: "Design + Research"
+baseurl: ""
+url: "http://yourdomain.com"
+linkedin_username: kmuthuramu
+twitter_username: karmu0
+github_username:  karmu
+facebook_username:  kmuthuramu
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
