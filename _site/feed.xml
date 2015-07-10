@@ -3,11 +3,82 @@
   <channel>
     <title>Karthika Muthuramu</title>
     <description>Design + Research</description>
-    <link>http://yourdomain.com/startbootstrap-clean-blog-jekyll/</link>
-    <atom:link href="http://yourdomain.com/startbootstrap-clean-blog-jekyll/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Jul 2015 18:09:06 -0700</pubDate>
-    <lastBuildDate>Mon, 06 Jul 2015 18:09:06 -0700</lastBuildDate>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 10 Jul 2015 10:56:17 -0700</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2015 10:56:17 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Munchkin for iPad</title>
+        <description>&lt;p&gt;Below is an iPad interface mockup for the card game Munchkin by Steve Jackson Games. This project explored the junction between tabletop game design and digital game design and how to bridge the two.&lt;/p&gt;
+
+&lt;p&gt;Collaborators: Eric and Ronak&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/munchkin-mockup2.png&quot; alt=&quot;Munchkin final mockup&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-munchkin&quot;&gt;What is Munchkin?&lt;/h2&gt;
+
+&lt;p&gt;Munchkin is a dedicated deck RPG. Many of its ideas and concepts draw from traditional role-playing game lore, particularly Dungeons and Dragons. However it differs in that it focuses on humour and simplicity. According to the gamebook, “Munchkin brings you the essence of the dungeon-crawling experience…without all that messy roleplaying!” It has exploded in popularity for making the typically labyrinthine world of RPGs accessible to a wider audience of casual players - though it does remain significantly more complex than the average board game.&lt;/p&gt;
+
+&lt;p&gt;In terms of gameplay, the objective is to be the first player to reach Level 10 by defeating monsters. Each player starts as a Level 1 Human and can play cards to build a better character, fight monsters, and interfere with other players. The game contains 168 mostly unique cards (excluding expansions) and a regular six-sided die. Due to its relative simplicity, it has a short game duration of one to two hours whereas other RPGs can take anywhere from days to months.&lt;/p&gt;
+
+&lt;h2 id=&quot;game-mechanics&quot;&gt;Game Mechanics&lt;/h2&gt;
+
+&lt;p&gt;We first broke down Munchkin into its core components and actions. This resulted in a series of task flows diagrams (the game was too complex to create a single diagram, so the blue boxes are subtasks that are expanded in separate diagrams). Some examples are available below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;High-level Task Flow&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/munchkin-flow-main.png&quot; alt=&quot;Munchkin main task flow diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kick Down the Door (starting a turn) Subtask&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/munchkin-flow-door.png&quot; alt=&quot;Munchkin kicking down the door task flow diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enter Combat Subtask&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/munchkin-flow-combat.png&quot; alt=&quot;Munchkin combat sequence task flow diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;personas-and-requirements&quot;&gt;Personas and Requirements&lt;/h2&gt;
+
+&lt;p&gt;We created four personas to represent the main player groups: casual players, enthusiast players, new players, and young players (children). These personas were used to generate interface requirements for the iPad version. For example:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casual player&lt;/strong&gt; - The interface is easily recognizable and feels similar to an in-person game&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enthusiast player&lt;/strong&gt; - The interface allows you to track and save statistics across multiple game sessions&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;New player&lt;/strong&gt; - Rules and card descriptions are easily accessible at any point during game play&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Young player&lt;/strong&gt; - Suggestions are made if the player is taking a long time to make a play&lt;/p&gt;
+
+&lt;h2 id=&quot;wireframes-and-user-testing&quot;&gt;Wireframes and User Testing&lt;/h2&gt;
+
+&lt;p&gt;We made some wireframe stills to show our proposed layout and then tested them with users in 1-on-1 interviews.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/munchkin-layout.png&quot; alt=&quot;Munchkin layout wireframe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of the questions we asked:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Where do you think the cards should be displayed?&lt;/li&gt;
+  &lt;li&gt;What parts of this sketch do you think are clickable?&lt;/li&gt;
+  &lt;li&gt;Please explain what you think each section (box) is for.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We then made a series of wireframe walkthroughs to use for scenario testing. The following set of frames covers one path of the Kicking Down the Door scenario (see the second task flow above). Users were given tasks and then asked to click/swipe through the wireframes to progress through the walkthrough.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/munchkin-wireframe-walkthrough.gif&quot; alt=&quot;Munchkin starting a turn walkthrough wireframe animated as gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After multiple rounds of interviews, salience tests, emotional impact tests, heat maps, and more and more and more user testing, we ended up with the mockup at the top of this post.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Munchkin’s game design and images are all owned by Steve Jackson Games.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Jan 2015 04:00:00 -0800</pubDate>
+        <link>http://yourdomain.com/2015/01/01/munchkin/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/01/01/munchkin/</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>

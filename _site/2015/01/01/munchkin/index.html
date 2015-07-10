@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Design + Research">
+
+    <title>Munchkin for iPad - Karthika Muthuramu</title>
+
+    <link rel="canonical" href="http://yourdomain.com/2015/01/01/munchkin/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Karthika Muthuramu</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                
+                <li>
+                    <a href="/contact/">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/munchkin-header.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Munchkin for iPad</h1>
+                    
+                    <h2 class="subheading">Designing a touch interface for the card game Munchkin</h2>
+                    
+                    <!--<span class="meta">Posted by Karthi on January 1, 2015</span>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>Below is an iPad interface mockup for the card game Munchkin by Steve Jackson Games. This project explored the junction between tabletop game design and digital game design and how to bridge the two.</p>
+
+<p>Collaborators: Eric and Ronak</p>
+
+<p><img src="/img/munchkin-mockup2.png" alt="Munchkin final mockup" /></p>
+
+<h2 id="what-is-munchkin">What is Munchkin?</h2>
+
+<p>Munchkin is a dedicated deck RPG. Many of its ideas and concepts draw from traditional role-playing game lore, particularly Dungeons and Dragons. However it differs in that it focuses on humour and simplicity. According to the gamebook, “Munchkin brings you the essence of the dungeon-crawling experience…without all that messy roleplaying!” It has exploded in popularity for making the typically labyrinthine world of RPGs accessible to a wider audience of casual players - though it does remain significantly more complex than the average board game.</p>
+
+<p>In terms of gameplay, the objective is to be the first player to reach Level 10 by defeating monsters. Each player starts as a Level 1 Human and can play cards to build a better character, fight monsters, and interfere with other players. The game contains 168 mostly unique cards (excluding expansions) and a regular six-sided die. Due to its relative simplicity, it has a short game duration of one to two hours whereas other RPGs can take anywhere from days to months.</p>
+
+<h2 id="game-mechanics">Game Mechanics</h2>
+
+<p>We first broke down Munchkin into its core components and actions. This resulted in a series of task flows diagrams (the game was too complex to create a single diagram, so the blue boxes are subtasks that are expanded in separate diagrams). Some examples are available below.</p>
+
+<p><strong>High-level Task Flow</strong></p>
+
+<p><img src="/img/munchkin-flow-main.png" alt="Munchkin main task flow diagram" /></p>
+
+<p><strong>Kick Down the Door (starting a turn) Subtask</strong></p>
+
+<p><img src="/img/munchkin-flow-door.png" alt="Munchkin kicking down the door task flow diagram" /></p>
+
+<p><strong>Enter Combat Subtask</strong></p>
+
+<p><img src="/img/munchkin-flow-combat.png" alt="Munchkin combat sequence task flow diagram" /></p>
+
+<h2 id="personas-and-requirements">Personas and Requirements</h2>
+
+<p>We created four personas to represent the main player groups: casual players, enthusiast players, new players, and young players (children). These personas were used to generate interface requirements for the iPad version. For example:</p>
+
+<p><strong>Casual player</strong> - The interface is easily recognizable and feels similar to an in-person game</p>
+
+<p><strong>Enthusiast player</strong> - The interface allows you to track and save statistics across multiple game sessions</p>
+
+<p><strong>New player</strong> - Rules and card descriptions are easily accessible at any point during game play</p>
+
+<p><strong>Young player</strong> - Suggestions are made if the player is taking a long time to make a play</p>
+
+<h2 id="wireframes-and-user-testing">Wireframes and User Testing</h2>
+
+<p>We made some wireframe stills to show our proposed layout and then tested them with users in 1-on-1 interviews.  </p>
+
+<p><img src="/img/munchkin-layout.png" alt="Munchkin layout wireframe" /></p>
+
+<p>Some of the questions we asked:</p>
+
+<ol>
+  <li>Where do you think the cards should be displayed?</li>
+  <li>What parts of this sketch do you think are clickable?</li>
+  <li>Please explain what you think each section (box) is for.</li>
+</ol>
+
+<p>We then made a series of wireframe walkthroughs to use for scenario testing. The following set of frames covers one path of the Kicking Down the Door scenario (see the second task flow above). Users were given tasks and then asked to click/swipe through the wireframes to progress through the walkthrough.</p>
+
+<p><img src="/img/munchkin-wireframe-walkthrough.gif" alt="Munchkin starting a turn walkthrough wireframe animated as gif" /></p>
+
+<p>After multiple rounds of interviews, salience tests, emotional impact tests, heat maps, and more and more and more user testing, we ended up with the mockup at the top of this post.</p>
+
+<p><em>Munchkin’s game design and images are all owned by Steve Jackson Games.</em></p>
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!--<li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>-->
+                    
+                    <li>
+                        <a href="https://linkedin.com/in/kmuthuramu">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <!--
+                    <li>
+                        <a href="https://twitter.com/karmu0">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    -->
+                    
+                    <li>
+                        <a href="https://www.facebook.com/kmuthuramu">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://github.com/karmu">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Karthika Muthuramu 2015</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+</body>
+
+</html>
